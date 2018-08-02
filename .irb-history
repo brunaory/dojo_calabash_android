@@ -1,0 +1,50 @@
+touch("* id:'toolbar'")
+pan("* id:'statusBarBackground'", :down)
+scroll_down
+query("all *id:'simple_button_txt_text)
+touch("all *id:'simple_button_txt_text)
+touch("all *id:'simple_button_txt_text'")
+touch("all *id:'simple_button_txt_text'")
+touch("* id:'create_goal_finish_ctn_day'")
+touch ("* id:'action_bar_root'")
+query("*")
+start_test_server_in_background
+pan_down()
+pan_rigth()
+pan_right()
+pan("* class:'android.support.v4.widget.NestedScrollView'", :down)
+pan("all :'android.support.v4.widget.NestedScrollView'", :down)
+query("*")
+scroll
+
+query("*")
+query("*")
+query("*")
+pan("* id:'goal_create_container'", :down)
+pan("* id:'create_portion_portion_box'", :down)
+pan("* id:'view_value_group_value'", :down)
+scroll('ScrollView', :down)
+sc
+perform_action('drag', 90, 0, 90, 50, 50)
+perform_action('drag', 90, 0, 90, 50, 50)
+perform_action('drag', 90, 0, 90, 50, 50)
+reinstall_apps
+start_test_server_in_background
+query("*")
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+touch("* id:'action_bar_root'")
+start_test_server_in_background
+query("*")
+touch("* id:'goals_list_pull_refresh'")
+start_test_server_in_background
+query("*")
+wait_for("* id: 'item_goals_txt_amount' = 'R$ 0,00'"
+wait_for("* id: 'item_goals_txt_amount' = 'R$ 0,00'"
+query("*")
+start_test_server_in_background

@@ -1,0 +1,7 @@
+source 'http://rubygems.org'
+ruby '2.3.3'
+gem 'cucumber'
+gem 'calabash-android'
+gem 'pry'
+gem 'pry-nav'
+gem 'pry'
