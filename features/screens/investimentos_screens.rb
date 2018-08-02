@@ -1,7 +1,7 @@
 class Investimentos < Calabash::ABase
 
   def entrar_investimentos
-    wait_for_elements_exist(["* id:'dashboard_txt_goals'"], timeout: 30)
+    wait_for_elements_exist(["* id:'avatar_plus_img_avatar'"], timeout: 50)
     touch("* id:'dashboard_txt_goals'")
   end
 
@@ -52,12 +52,12 @@ class Investimentos < Calabash::ABase
   end
 
   def selecionar_objetivo_criado
-    wait_for_elements_exist(["* id:'goals_list_pull_refresh'"], timeout: 30)
-    touch("* id:'goals_list_pull_refresh'")
+    wait_for_elements_exist(["* id:'item_goals_img'"], timeout: 50)
+    touch("* id:'item_goals_img'")
   end
 
   def selecionar_investir_resgatar
-    wait_for_elements_exist(["* id:'simple_button_txt_text'"], timeout: 30)
+    wait_for_elements_exist(["* id:'goal_detail_ctn_cover_image'"], timeout: 30)
     touch("* id:'simple_button_txt_text'")
   end
 

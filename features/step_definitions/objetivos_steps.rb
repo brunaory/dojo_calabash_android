@@ -5,7 +5,7 @@ Dado(/^que realize o login na neon pagamentos$/) do
   page(Login).fechar_teclado
   page(Login).acionar_entrar
   page(Login).inserir_senha
-  sleep 10
+  #sleep 10
   page(Investimentos).entrar_investimentos
   page(Investimentos).trocar_onboarding
   page(Investimentos).acessar_proxima_tela
@@ -34,7 +34,7 @@ Entao(/^vejo o objetivo criado$/) do
 end
 
 Quando(/^estiver na tela de depósito de um objetivo$/) do
-  sleep 10
+  #sleep 10
   page(Investimentos).selecionar_objetivo_criado
   #sleep 10
   page(Investimentos).selecionar_investir_resgatar
@@ -49,9 +49,9 @@ Entao(/^posso depositar o valor no porquinho$/)do
 end
 
 Quando(/^estiver na tela de resgate de um objetivo$/) do
-  sleep 10
+  #sleep 10
   page(Investimentos).selecionar_objetivo_criado
-  sleep 15
+  #sleep 15
   page(Investimentos).selecionar_investir_resgatar
   page(Investimentos).selecionar_resgate
 end
